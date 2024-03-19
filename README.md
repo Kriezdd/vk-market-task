@@ -1,27 +1,15 @@
-# vite-template-redux
+# vk-market-task
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+### gh-pages: https://kriezdd.github.io/vk-market-task/
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
+## Языки и технологии:
+<p>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" alt="react-logo" width="30"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="ts-logo" width="30"/>
+   <img src="https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-xbdsnx83.png" alt="antd-logo" width="30"/>
+   <img src="https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-xbdsnx83.png" alt="redux-toolkit" width="30"/>
+</p>
 
-## Goals
-
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
-
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+## Описание
+Простая корзина товаров. В проекте используются: React, Typescript, Redux Toolkit, Ant Design. Список товаров запрашивается из API: dummyjson.com.
+Есть возможность изменить количество товара в корзине (минимум 1, максимум 10), удалить товар из корзины. С правой стороны показывается итог по общей стоимости товаров в корзине.
